@@ -1,0 +1,33 @@
+.top-panel {
+  height: 50px;
+  margin: 0 0 10px 0;
+  background: #00000073;
+
+  .list-products {
+    position: relative;
+    top: 12px;
+    left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  .cart-block {
+    float: right;
+    .cart {
+      position: relative;
+      margin: 0 25px 0 0;
+      color: #000;
+      i {
+        font-size: 45px;
+      }
+    }
+    .cart-count {
+      background: #d0d0d0;
+      border-radius: 10px;
+      padding: 0 5px 0 4px;
+      position: absolute;
+      font-size: 12px;
+      right: 7px;
+    }
+  }
+}

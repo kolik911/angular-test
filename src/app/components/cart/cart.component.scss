@@ -1,0 +1,23 @@
+h2 {
+  text-align: center;
+}
+.cart {
+  padding: 0;
+  margin: 0;
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 0 10px 0;
+    border-bottom: solid 1px #000;
+    button {
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      i {
+        font-size: 45px;
+      }
+    }
+  }
+}

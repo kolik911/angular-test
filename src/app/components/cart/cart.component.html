@@ -1,0 +1,17 @@
+<h2>Cart</h2>
+<ul class="cart">
+  <li class="cart-item" *ngFor="let item of cart.goods | async">
+    <div class="cart-item-descrioption">
+      <p><b>Name:</b> {{ item.name }}</p>
+      <p><b>Descrioption:</b> {{ item.label }}</p>
+      <p><b>Price:</b> {{ item.price }}</p>
+    </div>
+    <button (click)="cart.remove(item.id)" title="Remove from cart">
+      <i class="material-icons">
+        remove_shopping_cart
+      </i>
+    </button>
+  </li>
+</ul>
+
+<h2>Total sum: {{ cart.totalSum | async }}</h2>

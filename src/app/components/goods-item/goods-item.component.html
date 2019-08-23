@@ -1,0 +1,13 @@
+<div class="goods-item">
+  <div class="goods-item-description">
+    <p><b>Name:</b> {{ item.name }}</p>
+    <p><b>Descrioption:</b> {{ item.label }}</p>
+    <p><b>Price:</b> {{ item.price }}</p>
+  </div>
+  <button (click)="addToCart(item)" title="Add to cart">
+    <i class="material-icons">
+      add_shopping_cart
+    </i>
+  </button>
+</div>
+<hr />

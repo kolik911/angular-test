@@ -1,0 +1,13 @@
+.goods-item {
+  display: flex;
+  justify-content: space-between;
+  button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    .material-icons {
+      font-size: 45px;
+    }
+  }
+}

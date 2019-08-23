@@ -1,0 +1,11 @@
+<div class="top-panel">
+  <a [routerLink]="'/goods'" class="list-products">List Products</a>
+  <div class="cart-block">
+    <a [routerLink]="'/cart'" class="cart">
+      <i class="material-icons">
+        shopping_cart
+      </i>
+    </a>
+    <span class="cart-count">{{ cart.count | async }}</span>
+  </div>
+</div>
